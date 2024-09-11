@@ -1,4 +1,15 @@
-doahiwfo{
-    awd
-    
+img{
+    max-width: 100%;
+    display: block; /* Utilizado para no dejar separación entre las imágenes y los elementos*/
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.principal{
+    background-image: url(../img/tlax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
 }
