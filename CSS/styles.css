@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 html { /* Establece el border box para no perder la medida deseada*/
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -56,25 +56,16 @@ a{
     gap: 20px; /* Espacio entre las imágenes */
 }
 
-.imagenes-container-exconvento {
-    display: flex;
-    justify-content: center; /* Centra las imágenes horizontalmente */
-    gap: 300px; /* Espacio entre las imágenes */
-    align-items: center; /* Alinea las imágenes verticalmente en el centro, si son de diferentes alturas */
-=======
-img{
-    max-width: 100%;
-    display: block; /* Utilizado para no dejar separación entre las imágenes y los elementos*/
-}
-
-body{
-    font-family: 'Poppins', sans-serif;
-}
 
 .principal{
     background-image: url(../img/tlax.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 55rem;
->>>>>>> 20aee25fd95d579d040ec25d4deed5e8401b4105
 }
+
+.imagenes-container-par {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 300px; /* Espacio entre las imágenes */
+    align-items: center; /* Alinea las imágenes verticalmente en el centro, si son de diferentes alturas */
