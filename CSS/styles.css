@@ -1,11 +1,61 @@
-img{
-    max-width: 100%;
-    display: block; /* Utilizado para no dejar separación entre las imágenes y los elementos*/
+
+html { /* Establece el border box para no perder la medida deseada*/
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10 px */
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body{
+    color: rgb(14, 14, 14);
+    background-color: #eeeaea;
     font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
 }
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+img{
+    max-width: 24%;
+    display: block; /* Utilizado para no dejar separación entre las imágenes y los elementos*/
+}
+
+a{
+    color: rgb(29, 22, 225);
+    text-decoration: none;
+}
+
+.nombre-pagina{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 9rem;
+}
+
+.seccion {
+    background: #dedada;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(247, 5, 5, 0.1);
+}
+
+.titulo-container {
+    display: inline-block;
+    border-radius: 10px; /* Redondea los bordes */
+    background-color: #f0f1f4; /* Color de fondo */
+    padding: 5px; /* Añade un poco de espacio entre el texto y el borde del contenedor */
+}
+
+.imagenes-container-centro_historico {
+    display: flex;
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
 
 .principal{
     background-image: url(../img/tlax.jpg);
@@ -13,3 +63,9 @@ body{
     background-size: cover;
     height: 55rem;
 }
+
+.imagenes-container-par {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 300px; /* Espacio entre las imágenes */
+    align-items: center; /* Alinea las imágenes verticalmente en el centro, si son de diferentes alturas */
