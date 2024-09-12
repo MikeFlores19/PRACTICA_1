@@ -69,3 +69,33 @@ a{
     justify-content: center; /* Centra las imágenes horizontalmente */
     gap: 300px; /* Espacio entre las imágenes */
     align-items: center; /* Alinea las imágenes verticalmente en el centro, si son de diferentes alturas */
+}
+
+.footer {
+    background-color: #333;       /* Dark background color */
+    color: white;                 /* Text color */
+    padding: 20px;                /* Space inside the footer */
+    text-align: center;           /* Centered text */
+    position: relative;           /* Relative positioning */
+    bottom: 0;                    /* Stick to the bottom */
+    width: 100%;                  /* Full width */
+}
+
+.footer p {
+    margin: 0;                    /* Remove default margins */
+    font-size: 14px;              /* Font size for text */
+}
+
+.social-icons {
+    margin-top: 10px;             /* Space above social icons */
+}
+
+.social-icons a {
+    color: white;                 /* Color of the links */
+    margin: 0 10px;               /* Space between icons */
+    text-decoration: none;        /* Remove underline from links */
+}
+
+.social-icons a:hover {
+    text-decoration: underline;   /* Underline on hover */
+}
