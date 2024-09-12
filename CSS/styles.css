@@ -99,3 +99,6 @@ a{
 .social-icons a:hover {
     text-decoration: underline;   /* Underline on hover */
 }
+table{
+    margin: 50px;
+}
